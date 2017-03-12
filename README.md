@@ -17,3 +17,8 @@ Output: 1, 2, ping, 4, pong, ping
 * Numbers divisible by 15 are replaced with "pingpong"
 Input: 6
 Output: 1, 2, ping, 4, pong, 5, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong
+
+* Replace existing range with new input if clicked again
+1, 2, ping, 4, pong, ping
+Input: 3
+Output: 1, 2, ping

@@ -8,10 +8,10 @@ $(document).ready(function() {
 				$("ul#result").append("ping");
 			} else if (i % 5 === 0) {
 				$("ul#result").append("pong");
-			} else if (i % 15 === 0)
+			} else if (i % 3 === 0 && i % 5 === 0) {
 				$("ul#result").append("pingpong");
 			} else {
-
+				$("ul#result").append(i);
 			}
 		}
 

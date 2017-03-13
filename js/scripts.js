@@ -1,22 +1,20 @@
 $(document).ready(function() {
 	$("form").submit(function(event) {
 		event.preventDefault();
-			alert("Hello");
+			
 		var number = parseInt($("input#number").val());
 
 		for (i = 1; i <= number; i++) {
 			if (i % 3 === 0 && i % 5 === 0) {
-				$("ul#result").append("ping pong");
-				alert("Hello");
+				$("ul#result").append("<li>ping pong</li>");
 			} else if (i % 3 === 0) {
-				$("ul#result").append("ping");
+				$("ul#result").append("<li>ping</li>");
 			} else if (i % 5 === 0) {
-				$("ul#result").append("pong");
+				$("ul#result").append("<li>pong</li>");
 			} else {
-				$("ul#result").append(i);
+				$("ul#result").append("<li>" + i + "</li>");
 			}
 		}
-
 	});
 });
 

@@ -1,5 +1,20 @@
 body {
 	text-align: center;
 	background: url("../img/ping-pong.jpg") no-repeat center fixed;
-	background-size: 100px 80px;
+	background-size: cover;
+}
+
+.jumbotron {
+	width: 100%;
+}
+
+#frame {
+	border-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;	
+}
+
+#frame p {
+	font-weight: bold;
+	color: #000000;
 }

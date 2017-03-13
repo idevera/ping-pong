@@ -7,6 +7,8 @@ body {
 .jumbotron {
 	width: 100%;
 	opacity: 0.9;
+	background-color: white;
+	border: 1px solid black;
 }
 
 #frame {
@@ -20,5 +22,6 @@ body {
 }
 
 ul {
+	padding-left: 0px;
   list-style-type: none;
 }
